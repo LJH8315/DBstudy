@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8">
+<title th:text="|${mname}'s color|"> </title></head> <!-- |${변수}, 하드코딩 |  -->
+<body th:style="|color: ${color}|"> <!-- | 하드코딩 1개, ${: 변수} |  -->
+<strong th:text="${mname}">mname</strong>님이좋아하는색은<br>     
+<strong th:text="${color}">color</strong>입니다. 
+</body></html>

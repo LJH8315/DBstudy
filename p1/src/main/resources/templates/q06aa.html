@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8">
+<title th:text="|${company1} & ${company2}|"> </title></head> <!-- |${변수}, 하드코딩 |  -->
+<style>
+	strong { color:blue; }
+</style>
+<body>
+반갑습니다. 조만간 회사에서 만나요!-
+<strong th:text="${company1}">company1</strong> 인사팀장-<br> <br>
+아니오! 우리 회사로 꼭 오세요!!- 
+<strong th:text="${company2}">company2</strong> 인사팀장-<br> <br>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>받는 쪽</title>
+</head>
+<style> 
+	body{ background-color:#00FFFF; }
+	table {border: 1px solid black; }
+	th{ border: 1px solid black; }
+	td{ border: 1px solid black; }
+</style>
+<body>
+<h1> 오늘의 명언 </h1> 
+<table>
+ <tr>
+	<th>위인 <td> <span th:text="${wise}"> </span>
+ <tr>
+	<th>명언 <td> <span th:text="${wi}"> </span>
+</table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8">
+<title th:text="|${bread}|"> </title></head> <!-- |${변수}, 하드코딩 |  -->
+<body style="background-color:pink">
+고객님꼐서 구매하신 빵은 <br>
+<strong th:text="${bread}">bread</strong>이며<br>     
+<strong th:text="${num}">num</strong>개를 구매하셨으므로<br>
+총 가격은
+<strong th:text="${price}">price</strong>원 입니다.
+</body></html>

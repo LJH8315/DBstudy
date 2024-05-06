@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thyemleaf.org">
+<head><meta charset="UTF-8">
+<title>logout</title><style>
+	body { backgroud-color:#FBEFF5; text-align:center; }
+	#s1 { color:blue; }
+	.s2 { color:gray; font-size:0.8em; }
+	img { width: 300px; height: 220px; }
+</style></head>
+<body>
+<span id="s1" th:text="${mid}">mid</span> 님께서 로그아웃하셨습니다. <p>
+다음에 또 만나요!!</p>
+<span class="s2">(아래 그림을 클릭하시면 첫 화면으로 이동합니다.)</span> <br>
+<a href="/login">
+	<img src="/코코.jpg" alt="우리집 강아지">
+</a><br>
+<span class="s2">(그림 출처: 우리집 강아지)</span>
+</body>
+</html>

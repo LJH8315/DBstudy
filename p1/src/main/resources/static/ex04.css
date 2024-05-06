@@ -1,0 +1,6 @@
+@charset "UTF-8";
+body	{background-color:#FF0000;}
+table	{width:200px; border:1px dashed green;}
+#ftr	{background-color:orange; }
+td		{color:navy; text-align:center;}
+th		{background-color:brown;}
